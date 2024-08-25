@@ -1,4 +1,4 @@
-# React-Vite Sky Tracer(Weather App)
+# Sky Tracer(Weather App)
 
 ## [Website](https://sky-tracer.netlify.app/)
 ![image](https://github.com/iamvishalrathi/Sky-Tracer/blob/main/src/assets/Screenshot%202024-08-25%20220005.png)
