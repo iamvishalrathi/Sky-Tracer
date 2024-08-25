@@ -1,13 +1,21 @@
 import SearchBox from "./SearchBox";
 import InfoBox from "./InfoBox";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import {getWeatherInfo} from './Helper'
 export default function WeatherApp(){
-    const [weatherInfo,setWeatherInfo]= useState({})
+    const [weatherInfo,setWeatherInfo]= useState({});
 
     let updateInfo= (updateInfo)=>{
         setWeatherInfo(updateInfo);
     }
 
+    useEffect(()=>{
+        async function fetchData(){
+            let result = await getWeatherInfo("Delhi");
+            setWeatherInfo(result);
+        }
+        fetchData();
+    },[]);
     
     return(
         <div style={{textAlign: "center"}}>
