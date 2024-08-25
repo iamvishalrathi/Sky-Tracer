@@ -36,9 +36,9 @@ Make sure you have Node.js and npm installed on your machine.
 
 ## Usage
 To start the development server, run:
-    ```bash
-    npm run dev
-    ```
+```bash
+npm install
+```
 
 ## Customization
 You can customize the widget by modifying the code in the src directory. The main components are:
