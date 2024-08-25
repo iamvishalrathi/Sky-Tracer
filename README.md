@@ -1,6 +1,6 @@
 # React-Vite Sky Tracer(Weather App)
 
-## [Website](https://weather-widget-00.netlify.app/)
+## [Website](https://sky-tracer.netlify.app/)
 ![image](https://github.com/vin-00/Weather-Widget/assets/132657698/3e2f4a3d-bd66-44cd-8123-889571546330)
 
 
